@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import Header from "./Header.jsx";
@@ -66,7 +66,7 @@ function App() {
     }
   }, [settings]);
   return (
-    <HashRouter>
+    <BrowserRouter basename="/">
       <Header />
       <Routes>
         <Route path="/" element={<MainPage />} />
@@ -84,7 +84,7 @@ function App() {
         />
         <Route path="/mycities" element={<MyCities />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
