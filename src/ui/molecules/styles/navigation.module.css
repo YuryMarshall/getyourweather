@@ -1,0 +1,6 @@
+.navigation__container {
+  @apply py-2 flex justify-end;
+}
+.navigation__ul {
+  @apply hidden sm:flex;
+}

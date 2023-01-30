@@ -1,0 +1,48 @@
+.settings__container {
+  @apply text-gray-400  font-montser font-bold  flex flex-col text-xl px-5 sm:items-center lg:text-2xl;
+}
+
+.input__container {
+  @apply sm:flex sm:flex-col sm:justify-center  sm:border-2 sm:border-gray-400 sm:p-10 sm:w-4/6 sm:rounded-3xl lg:flex-row lg:w-auto;
+}
+.title {
+  @apply relative text-base mr-auto ml-auto mb-10 text-white font-normal before:content-[''] before:bg-settings before:bg-no-repeat before:bg-contain before:block before:w-4 before:h-4 before:absolute before:left-[-24px] before:top-1 sm:text-xl sm:before:w-5 sm:before:h-5 sm:before:left-[-26px] sm:before:top-[5px] lg:text-3xl lg:before:w-8 lg:before:h-8 lg:before:left-[-38px] lg:before:top-[5px];
+}
+input.switch {
+  position: relative;
+  -webkit-appearance: none;
+  outline: none;
+  width: 50px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #d9dadc;
+  border-radius: 50px;
+  box-shadow: inset -20px 0 0 0 #fff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+input.switch:after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  background: transparent;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+input.switch:checked {
+  box-shadow: inset 20px 0 0 0 #3588ed;
+  border-color: #5a5ae8;
+}
+
+input.switch:checked:after {
+  left: 20px;
+  box-shadow: -2px 4px 3px rgba(0, 0, 0, 0.05);
+}
+.label {
+  @apply flex items-center  mb-5 lg:mr-10 lg:last:mr-0;
+}

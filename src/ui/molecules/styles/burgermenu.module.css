@@ -1,0 +1,9 @@
+.icon__container {
+  @apply relative;
+}
+.menu__container {
+  @apply w-36 bg-white bg-opacity-70 absolute right-0 top-10 z-10;
+}
+.menu__ul {
+  @apply flex flex-col items-end font-montser font-bold text-xl text-projectblue;
+}

@@ -1,0 +1,18 @@
+.main {
+  @apply flex justify-center  items-center  lg:bg-none;
+}
+.weather__container {
+  @apply flex flex-col items-center justify-center sm:flex-row sm:items-start lg:w-5/6;
+}
+.your__location__container {
+  @apply flex flex-col justify-center items-center sm:mr-10 lg:w-1/2;
+}
+.custom__location__container {
+  @apply flex flex-col justify-center items-center lg:w-1/2;
+}
+.ip__title {
+  @apply text-white mb-4 relative  before:content-[''] before:bg-geolocation before:bg-no-repeat before:bg-contain before:block before:w-5 before:h-5 before:absolute before:left-[-24px] before:top-0.5 sm:text-xl sm:before:w-5 sm:before:h-5 sm:before:left-[-26px] sm:before:top-[5px] lg:text-3xl lg:before:w-7 lg:before:h-7 lg:before:left-[-30px] lg:mb-20;
+}
+.custom__title {
+  @apply text-white mb-5 relative  before:content-[''] before:bg-world before:bg-no-repeat before:bg-contain before:block before:w-4 before:h-4 before:absolute before:left-[-24px] before:top-1 sm:text-xl sm:before:w-5 sm:before:h-5 sm:before:left-[-26px] sm:before:top-[5px] lg:text-3xl lg:before:w-7 lg:before:h-7 lg:before:left-[-35px] lg:mb-20;
+}

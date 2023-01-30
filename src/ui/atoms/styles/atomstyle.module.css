@@ -1,0 +1,30 @@
+.burger__img {
+  @apply mr-5 opacity-80 sm:hidden h-7 active:scale-95;
+}
+.burger__link {
+  @apply py-2 pr-2 w-full text-end border-b-2 border-projectblue;
+}
+.city__search__input {
+  @apply mb-10 p-1 pl-3 bg-transparent border-2 border-gray-400 mr-2 rounded-2xl text-gray-400 sm:mb-5 lg:text-xl lg:w-full lg:pl-5;
+}
+.header__link {
+  @apply mr-5 font-montser text-white font-bold hover:text-gray-400 active:scale-90;
+}
+.search__form {
+  @apply lg:w-full lg:flex lg:justify-center;
+}
+.search__input {
+  @apply mb-10 p-1 pl-3 bg-transparent border-2 border-gray-400 mr-2 rounded-2xl text-gray-400 lg:mb-0 lg:text-2xl;
+}
+.search__button {
+  @apply p-1 rounded-2xl text-gray-400 border-2 border-gray-400 px-2 hover:bg-gray-400 hover:text-white hover:scale-110 active:bg-transparent active:text-gray-400 active:scale-90 lg:text-2xl;
+}
+.settings__container {
+  @apply w-full flex text-sm justify-center;
+}
+.setting {
+  @apply flex flex-col  justify-center items-center mr-2 pr-2 mb-5 border-r-2 border-white last:border-0 last:mr-0 sm:text-base;
+}
+.setting__name {
+  @apply font-bold drop-shadow-tempShadow sm:text-base;
+}

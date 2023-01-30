@@ -1,0 +1,21 @@
+.weather__container {
+  @apply w-72 h-min   flex flex-col  items-center  text-xl   bg-white bg-opacity-10 rounded-lg mb-20 text-gray-200 p-5 sm:w-full sm:flex-row;
+}
+.name__container {
+  @apply flex flex-col justify-center sm:w-1/2 sm:mr-10;
+}
+.city__name {
+  @apply w-full flex justify-center items-center font-bold text-xl p-3 drop-shadow-tempShadow sm:text-4xl sm:pt-0;
+}
+.weather__img {
+  @apply w-32 sm:ml-auto sm:mr-auto;
+}
+.weather__description {
+  @apply w-full flex justify-center items-center font-bold text-xl drop-shadow-tempShadow;
+}
+.temperature__container {
+  @apply w-1/2;
+}
+.temperature {
+  @apply w-full flex justify-center items-center h-48 font-bold text-7xl drop-shadow-tempShadow sm:h-36;
+}
