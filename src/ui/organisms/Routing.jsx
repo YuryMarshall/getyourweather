@@ -66,7 +66,7 @@ function App() {
     }
   }, [settings]);
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <Routes>
         <Route path="/" element={<MainPage />} />
