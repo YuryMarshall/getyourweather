@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/getyourweather/static/css/main.d1a48ee7.css",
-    "main.js": "/getyourweather/static/js/main.a9de7e30.js",
+    "main.js": "/getyourweather/static/js/main.1ff9952f.js",
     "static/media/save.png": "/getyourweather/static/media/save.142db37050c0048f664c.png",
     "static/media/world.png": "/getyourweather/static/media/world.df6c53fbcc65f8a49712.png",
     "static/media/geo.png": "/getyourweather/static/media/geo.1af38cd83f3fe29fb293.png",
@@ -9,10 +9,10 @@
     "static/media/burger.svg": "/getyourweather/static/media/burger.164d80e93abbbae57be5432c76c31e96.svg",
     "index.html": "/getyourweather/index.html",
     "main.d1a48ee7.css.map": "/getyourweather/static/css/main.d1a48ee7.css.map",
-    "main.a9de7e30.js.map": "/getyourweather/static/js/main.a9de7e30.js.map"
+    "main.1ff9952f.js.map": "/getyourweather/static/js/main.1ff9952f.js.map"
   },
   "entrypoints": [
     "static/css/main.d1a48ee7.css",
-    "static/js/main.a9de7e30.js"
+    "static/js/main.1ff9952f.js"
   ]
 }
